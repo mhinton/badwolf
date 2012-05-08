@@ -111,7 +111,7 @@ call s:HL('rubyComment', 'lightgravel')
 ""call s:HL('erubyDelimiter', 'tardis', '', 'bold')
 
 " Overrides 
-""call s:HL('htmlArg', 'brightgravel', '', 'none')
+call s:HL('htmlArg', 'brightgravel', '', 'none')
 ""call s:HL('Folded', 'mediumgravel', 'bg', 'italic')
 ""call s:HL('markdownItalic', 'snow', '', 'italic')
 ""call s:HL('markdownBoldItalic', 'snow', '', 'bold,italic')
