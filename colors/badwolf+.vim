@@ -117,10 +117,11 @@ call s:HL('htmlArg', 'brightgravel', '', 'none')
 ""call s:HL('markdownBoldItalic', 'snow', '', 'bold,italic')
 call s:HL('Constant',  'saltwatertaffy', '', 'none')
 
-call s:HL('org_shade_stars', 'gravel', '', 'bold')
-call s:HL('org_heading1', 'lime', '', 'none')
-call s:HL('org_heading2', 'saltwatertaffy', '', 'none')
-call s:HL('org_heading3', 'dirtyblonde', '', 'none')
-call s:HL('org_heading4', 'dress', '', 'none')
+" call s:HL('org_shade_stars', 'gravel', '', 'bold')
+" call s:HL('org_heading1', 'lime', '', 'none')
+" call s:HL('org_heading2', 'saltwatertaffy', '', 'none')
+" call s:HL('org_heading3', 'dirtyblonde', '', 'none')
+" call s:HL('org_heading4', 'dress', '', 'none')
 
 hi Visual guifg=NONE gui=NONE guibg=#544033
+hi VertSplit ctermfg=233 guifg=#1c1b1a guibg=#1c1b1a
