@@ -518,6 +518,7 @@ call s:HL('texRefZone', 'lime', '', 'none')
 call s:HL('texComment', 'darkroast', '', 'none')
 call s:HL('texDelimiter', 'orange', '', 'none')
 call s:HL('texZone', 'brightgravel', '', 'none')
+<<<<<<< HEAD
 
 augroup badwolf_tex
     au!
@@ -526,6 +527,8 @@ augroup badwolf_tex
     au BufRead,BufNewFile *.tex syn region texMathZoneX start="\$" skip="\\\\\|\\\$" end="\$\|%stopzone\>" keepend contains=@texMathZoneGroup
 augroup END
 
+=======
+>>>>>>> some tweakes to the LaTeX colors
 " }}}
 " LessCSS {{{
 
