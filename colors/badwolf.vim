@@ -262,6 +262,10 @@ call s:HL('Repeat',      'taffy', '', 'none')
 " Functions and variable declarations are orange, because plain looks weird.
 call s:HL('Identifier', 'orange', '', 'none')
 call s:HL('Function',   'orange', '', 'none')
+<<<<<<< HEAD
+=======
+call s:HL('Delimiter',   'orange', '', 'none')
+>>>>>>> change delimiter to orange
 
 " Preprocessor stuff is lime, to make it pop.
 "
