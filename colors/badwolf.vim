@@ -262,13 +262,6 @@ call s:HL('Repeat',      'taffy', '', 'none')
 " Functions and variable declarations are orange, because plain looks weird.
 call s:HL('Identifier', 'orange', '', 'none')
 call s:HL('Function',   'orange', '', 'none')
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-call s:HL('Delimiter',   'orange', '', 'none')
->>>>>>> change delimiter to orange
-=======
->>>>>>> remove Delimiter, add texMathZone{V,X}
 
 " Preprocessor stuff is lime, to make it pop.
 "
@@ -521,7 +514,6 @@ call s:HL('texRefZone', 'lime', '', 'none')
 call s:HL('texComment', 'darkroast', '', 'none')
 call s:HL('texDelimiter', 'orange', '', 'none')
 call s:HL('texZone', 'brightgravel', '', 'none')
-<<<<<<< HEAD
 
 augroup badwolf_tex
     au!
@@ -530,8 +522,6 @@ augroup badwolf_tex
     au BufRead,BufNewFile *.tex syn region texMathZoneX start="\$" skip="\\\\\|\\\$" end="\$\|%stopzone\>" keepend contains=@texMathZoneGroup
 augroup END
 
-=======
->>>>>>> some tweakes to the LaTeX colors
 " }}}
 " LessCSS {{{
 
