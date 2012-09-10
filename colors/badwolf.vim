@@ -497,6 +497,7 @@ call s:HL('javaDocParam', 'dalespale', '', '')
 
 " }}}
 " LaTeX {{{
+
 call s:HL('texStatement', 'tardis', '', 'none')
 call s:HL('texMathZoneX', 'orange', '', 'none')
 call s:HL('texMathZoneA', 'orange', '', 'none')
