@@ -263,9 +263,12 @@ call s:HL('Repeat',      'taffy', '', 'none')
 call s:HL('Identifier', 'orange', '', 'none')
 call s:HL('Function',   'orange', '', 'none')
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 call s:HL('Delimiter',   'orange', '', 'none')
 >>>>>>> change delimiter to orange
+=======
+>>>>>>> remove Delimiter, add texMathZone{V,X}
 
 " Preprocessor stuff is lime, to make it pop.
 "
